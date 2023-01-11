@@ -1,0 +1,61 @@
+h2 {
+    color: pink;
+    font-size: 50px;
+}
+
+div {
+    background: green;
+    color: white;
+    margin: 20px;
+    /* 
+    margin-top: ;
+    margin-left: ;
+    margin-right: ;
+    margin-bottom: ;
+    */
+    padding: 20px;
+}
+
+span {
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+/* css селекторы */
+.first-div {
+    font-size: 40px;
+}
+
+.info {
+    color: blueviolet;
+}
+
+p.first-div {
+    color: cadetblue;
+}
+
+p span {
+    font-size: 50px;
+}
+
+p span.aurora {
+    color: aquamarine;
+}
+
+.first-div.info {
+    background-color: aquamarine;
+}
+
+.first-div .info {
+    font-size: 100px;
+}
+
+#forest {
+    color: tomato;
+}
